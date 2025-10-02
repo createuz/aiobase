@@ -1,0 +1,158 @@
+# =========================
+# Python / package build
+# =========================
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+dist/
+*.egg-info/
+.eggs/
+pip-wheel-metadata/
+*.egg
+*.whl
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# PyInstaller
+#  Usually these files are written by a python script from a template
+#  before PyInstaller builds the exe, so as to inject date/other infos into it.
+*.manifest
+*.spec
+
+# =========================
+# Virtualenvs
+# =========================
+# Pipenv / venv
+.venv/
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# =========================
+# Test / coverage
+# =========================
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+.pytest_cache/
+nose2-junit-output.xml
+junit-*.xml
+coverage.xml
+pytestdebug.log
+
+# =========================
+# MyPy / type checkers
+# =========================
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# =========================
+# IDE / editors
+# =========================
+# VS Code
+.vscode/
+.vscode/*
+
+# PyCharm
+.idea/
+*.iml
+
+# Sublime
+*.sublime-workspace
+*.sublime-project
+
+# Emacs / Vim / other
+*~
+*.swp
+*.swo
+.session/
+
+# =========================
+# OS files
+# =========================
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# =========================
+# Secrets / configs / envs
+# =========================
+# Environment files (never store creds!)
+.env
+.env.*            # .env.local, .env.test, etc.
+.envrc
+secrets.yml
+secrets.json
+*.pem
+*.key
+*.crt
+.pypirc            # local pypi/twine credentials
+.venvrc
+
+# =========================
+# Logs / runtime
+# =========================
+logs/
+*.log
+*.out
+*.err
+run/
+tmp/
+temp/
+*.pid
+
+# =========================
+# Documentation build / Sphinx
+# =========================
+docs/_build/
+build/docs/
+
+# =========================
+# Database / runtime artifacts
+# =========================
+*.sqlite3
+*.db
+*.db-journal
+
+# =========================
+# Jupyter notebooks
+# =========================
+.ipynb_checkpoints
+*.ipynb
+
+# =========================
+# OS X / macOS Trash
+# =========================
+.Trashes
+
+# =========================
+# Optional: ignore local IDE project metadata for contributors
+# (uncomment if you want to ignore them)
+# .idea/
+# .vscode/
+
+# =========================
+# Keep track: do NOT ignore these (examples of what to commit)
+# =========================
+# !src/
+# !pyproject.toml
+# !README.md
+# !LICENSE
+# !tests/
+# !.github/
