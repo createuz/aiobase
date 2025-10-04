@@ -1,0 +1,20 @@
+[project]
+name = "aiobase"
+version = "0.0.2"
+description = "async DB toolkit: SQLAlchemy (asyncpg) + redis + Pydantic + FastAPI"
+readme = "README.md"
+requires-python = ">=3.10"
+authors = [{name = "Shohjahon Rajabov", email = "falconsio.uz@gmail.com"}]
+license = {text = "MIT"}
+dependencies = [
+  "SQLAlchemy>=2.0",
+  "asyncpg>=0.28",
+  "pydantic>=2.0",
+  "fastapi>=0.95",
+  "uvicorn>=0.21",
+  "redis>=4.6"
+]
+
+[build-system]
+requires = ["setuptools>=65.5", "wheel", "build"]
+build-backend = "setuptools.build_meta"

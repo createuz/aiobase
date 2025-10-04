@@ -160,3 +160,4 @@ build/docs/
 # !LICENSE
 # !tests/
 # !.github/
+src/*
